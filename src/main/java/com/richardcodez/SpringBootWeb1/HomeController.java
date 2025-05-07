@@ -31,7 +31,7 @@ public class HomeController {
     }
 
     @RequestMapping("/addAlien")
-    public String addAlien(@ModelAttribute Alien alien){
+    public String addAlien(Alien alien){
 
 //        Alien alien = new Alien();
 //        alien.setAid(aid);
